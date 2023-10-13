@@ -13,7 +13,7 @@ The following examples demonstrate the anonymous record syntax. Items delimited 
 
 ```fsharp
 // Construct an anonymous record
-let value-name = [struct] {| Label1: Type1; Label2: Type2; ...|}
+let value-name = [struct] {| Label1 = Value1; Label2 = Value2; ...|}
 
 // Use an anonymous record as a type parameter
 let value-name = Type-Name<[struct] {| Label1: Type1; Label2: Type2; ...|}>
